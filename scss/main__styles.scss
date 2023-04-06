@@ -1,0 +1,191 @@
+.menu{
+  margin: 0 auto;
+  max-width: 1720px;
+  width: 100%;
+  padding-top: 60px;
+  padding-bottom: 60px;
+  .menu__header{
+    margin: 0;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 17px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    color: #323264;
+    text-align: center;
+    padding-bottom: 30px;
+    grid-area: header;
+  }
+  .hillel{
+    grid-area: hillel;
+    border-radius: 12px 0 0 0;
+  }
+  .wannabiz{
+    grid-area: wannabiz;
+  }
+  .tapgerine{
+    grid-area: tapgerine;
+  }
+  .dlook{
+    grid-area: dlook;
+    border-radius: 0 12px 0 0;
+  }
+  .orangear{
+    grid-area: orangear;
+  }
+  .adtelligent{
+    grid-area: adtelligent;
+  }
+  .clickky{
+    grid-area: clickky;
+  }
+  .ecoleasing{
+    grid-area: ecoleasing;
+  }
+  .infratek{
+    grid-area: infratek;
+    border-radius: 0 0 0 12px;
+  }
+  .citypark{
+    grid-area: citypark;
+  }
+  .artprint{
+    grid-area: artprint;
+  }
+  .ultimate{
+    grid-area: ultimate;
+    border-radius: 0 0 12px 0;
+  }
+  .hillelSD, .wannabizSD, .tapgerineSD, .dlookSD, .orangearSD, .adtelligentSD, .clickkySD, .ecoleasingSD, .infratekSD, .cityparkSD, .artprintSD, .ultimateSD{
+    display: none;
+  }
+  .hillelTB-HD, .wannabizTB-HD, .tapgerineTB-HD, .dlookTB-HD, .orangearTB-HD, .adtelligentTB-HD, .clickkyTB-HD, .ecoleasingTB-HD,
+  .infratekTB-HD, .cityparkTB-HD, .artprintTB-HD, .ultimateTB-HD{
+    display: none;
+  }
+  .hillelMOB, .wannabizMOB, .tapgerineMOB, .dlookMOB, .orangearMOB, .adtelligentMOB{
+    display: none;
+  }
+  .menu__logos {
+    display: grid;
+    grid-template-areas: 'header header header header'
+                         'hillel wannabiz tapgerine dlook'
+                         'orangear adtelligent clickky ecoleasing'
+                         'infratek citypark artprint ultimate'
+  }
+}
+
+.background-main__services{
+  background: #F5F5FA;
+}
+.main__services{
+  margin: 0 auto;
+  max-width: 1600px;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  & a{
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 17px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    color: #24A3FF;
+    text-decoration: none;
+  }
+  & a:hover{
+    color: #F0145A;
+  }
+  & h2{
+    margin: 0;
+    padding-top: 10px;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 38px;
+    line-height: 46px;
+    background: linear-gradient(90.13deg, #F0145A 0.84%, #EF8080 99.96%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+}
+
+
+.background-main__container{
+  background: #F5F5FA;
+}
+.main__container{
+  margin: 0 auto;
+  max-width: 1600px;
+  padding-bottom: 30px;
+  .wrapper{
+    display: grid;
+    grid-template-areas: 'card-1 card-2 card-3';
+  }
+  .main__container__card{
+    display: flex;
+    flex-direction: column;
+  }
+  .card-1{
+    grid-area: card-1;
+  }
+  .card-2{
+    grid-area: card-2;
+  }
+  .card-3{
+    grid-area: card-3;
+  }
+  .tabletSD, .gdprSD, .peopleSD{
+    display: none;
+  }
+  .tabletTB-HD, .gdprTB-HD, .peopleTB-HD{
+    display: none;
+  }
+  .tabletTB-SD, .gdprTB-SD, .peopleTB-SD{
+    display: none;
+  }
+  .tabletMOB, .gdprMOB, .peopleMOB{
+    display: none;
+  }
+  .main__container__card h4{
+    margin: 0;
+    max-width: 453px;
+    padding: 30px 0 15px 30px;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 20px;
+    color: #24A3FF;
+  }
+  .main__container__card span{
+    padding-left: 30px;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 15px;
+    color: #B3B3BA;
+  }
+  .main__container__card .horizon-line{
+    margin: 15px 0 15px 30px;
+    max-width: 453px;
+    height: 4px;
+    background: #E6E6F0;
+  }
+  .main__container__card p{
+    margin: 0;
+    max-width: 453px;
+    padding-left: 30px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 22px;
+    color: #000000;
+  }
+}
+
+.main__line{
+  margin: 0 auto;
+  max-width: 1600px;
+  height: 2px;
+  background: #E6E6F0;
+}

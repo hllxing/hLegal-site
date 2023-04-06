@@ -1,0 +1,36 @@
+.background .nav__info__links a:hover{
+    color: #F0145A;
+    border-bottom: 2px solid #F0145A;
+}
+header .header__services{
+    padding-top: 65px;
+}
+header .header__services h2{
+    padding-top: 0;
+}
+
+
+@media (min-width: 768px) and (max-width: 1023px){
+    .background .nav{
+        justify-content: normal;
+    }
+    header .header__services{
+        padding-top: 60px;
+    }
+    .footer .footer__container{
+        align-items: center;
+        flex-direction: column;
+    }
+    .footer .footer__container__right p{
+        padding-top: 30px;
+    }
+}
+
+@media (max-width: 767px){
+    header .header__services{
+        padding-top: 40px;
+    }
+    .footer{
+        padding-top: 0;
+    }
+}

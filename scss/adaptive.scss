@@ -1,0 +1,687 @@
+@media (min-width: 1601px) and (max-width: 1780px){
+  .background .nav{
+    max-width: 1500px;
+  }
+  header .header__services{
+    max-width: 1500px;
+  }
+  header .header__menu{
+    max-width: 1500px;
+    & .header__menu__row-card p{
+      max-width: 470px;
+    }
+    & .header__menu__row-card h3{
+      max-width: 470px;
+    }
+  }
+  .shadows .shadows__first{
+    max-width: 1500px;
+    width: 100%;
+  }
+  .shadows .shadows__second{
+    max-width: 1460px;
+    width: 100%;
+  }
+  .menu{
+    max-width: 1580px;
+    & img{
+      max-width: 395px;
+      height: 120px;
+    }
+  }
+  .main__services{
+    max-width: 1500px;
+  }
+  .main__container{
+    max-width: 1500px;
+    & div img{
+      max-width: 481px;
+    }
+    .tablet, .gdpr{
+      padding-right: 28px;
+    }
+    .main__container__card h4{
+      max-width: 420px;
+    }
+    .main__container__card .horizon-line{
+      max-width: 420px;
+    }
+    .main__container__card p{
+      max-width: 420px;
+    }
+  }
+  .main__line{
+    max-width: 1500px;
+  }
+  .footer{
+    max-width: 1500px;
+  }
+}
+
+@media (min-width: 1440px) and (max-width: 1600px) {
+  .background{
+    background-image: url("../image/SymbolSD.png");
+  }
+  .background .nav{
+    max-width: 1320px;
+  }
+  .background .background__head{
+    padding-top: 266px;
+  }
+  .background .background__button{
+    padding-top: 305px;
+  }
+  header .header__info{
+    max-width: 1080px;
+    & .header__info__right{
+      padding-top: 43px;
+    }
+    & .header__info__right p{
+      max-width: 581px;
+    }
+  }
+  header .header__services{
+    max-width: 1320px;
+  }
+  header .header__menu{
+    max-width: 1320px;
+    & .header__menu__row-card p{
+      max-width: 400px;
+    }
+  }
+  .shadows .shadows__first{
+    max-width: 1400px;
+    width: 100%;
+  }
+  .shadows .shadows__second{
+    max-width: 1360px;
+    width: 100%;
+  }
+  .main__services{
+    max-width: 1320px;
+    padding-top: 30px;
+  }
+  .menu{
+    max-width: 1440px;
+    padding-bottom: 0;
+    & .hillelSD, .wannabizSD, .tapgerineSD, .dlookSD, .orangearSD, .adtelligentSD, .clickkySD, .ecoleasingSD, .infratekSD, .cityparkSD, .artprintSD, .ultimateSD{
+      display: block;
+    }
+    & .hillel, .wannabiz, .tapgerine, .dlook, .orangear, .adtelligent, .clickky, .ecoleasing, .infratek, .citypark, .artprint, .ultimate{
+      display: none;
+    }
+  }
+  .main__container{
+    max-width: 1320px;
+    & .tabletSD, .gdprSD, .peopleSD{
+      display: block;
+    }
+    & .tablet, .gdpr, .people{
+       display: none;
+     }
+    .main__container__card h4{
+      max-width: 360px;
+    }
+    .main__container__card .horizon-line{
+      max-width: 360px;
+    }
+    .main__container__card p{
+      max-width: 360px;
+    }
+  }
+  .main__line{
+    max-width: 1320px;
+  }
+  .footer{
+    max-width: 1320px;
+  }
+}
+
+@media (min-width: 1024px) and (max-width: 1439px) {
+  .background{
+    background-image: url("../image/SymbolTB-HD.png");
+    & .background__head{
+      padding-top: 250px;
+    }
+  }
+  .background .nav {
+    max-width: 904px;
+  }
+  .background .background__button{
+    padding-top: 289px;
+  }
+  header .header__info {
+    max-width: 904px;
+  }
+  header .header__info__right {
+    max-width: 405px;
+    padding-top: 10px;
+  }
+  header .header__services {
+    max-width: 904px;
+  }
+  header .header__menu{
+    max-width: 904px;
+    & .header__menu__row-card p{
+      max-width: 261px;
+    }
+  }
+  .shadows .shadows__first{
+    max-width: 984px;
+    width: 100%;
+  }
+  .shadows .shadows__second{
+    max-width: 944px;
+    width: 100%;
+  }
+  .menu{
+    max-width: 1024px;
+    padding-bottom: 0;
+    .hillel, .wannabiz, .tapgerine, .dlook, .orangear, .adtelligent, .clickky, .ecoleasing, .infratek, .citypark, .artprint, .ultimate{
+      display: none;
+    }
+    .hillelTB-HD, .wannabizTB-HD, .tapgerineTB-HD, .dlookTB-HD, .orangearTB-HD, .adtelligentTB-HD, .clickkyTB-HD, .ecoleasingTB-HD,
+    .infratekTB-HD, .cityparkTB-HD, .artprintTB-HD, .ultimateTB-HD{
+      display: block;
+    }
+  }
+  .main__services{
+    max-width: 904px;
+    padding-top: 30px;
+  }
+  .main__container{
+    max-width: 904px;
+    .tablet, .gdpr, .people{
+      display: none;
+    }
+    .tabletTB-HD, .gdprTB-HD, .peopleTB-HD{
+      display: block;
+    }
+    .tabletTB-HD, .gdprTB-HD{
+      padding-right: 30px;
+    }
+    .main__container__card h4{
+      max-width: 221px;
+    }
+    .main__container__card .horizon-line{
+      max-width: 221px;
+    }
+    .main__container__card p{
+      max-width: 221px;
+    }
+  }
+  .main__line{
+    max-width: 904px;
+  }
+  .footer{
+    max-width: 904px;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 1023px) {
+  .background{
+    background-size: 893px;
+  }
+  .background .background__head{
+    padding-top: 274px !important;
+  }
+  .background .nav {
+    max-width: 648px;
+  }
+  .background .background__button{
+    padding-top: 417px;
+  }
+  .nav__logo{
+    display: none;
+  }
+  .nav__info .logo-tabletSD{
+    display: block;
+    padding-top: 35px;
+  }
+  .nav__info .nav__info__links div{
+    padding-top: 30px;
+    text-align: left;
+  }
+  .background .background__head{
+    padding-top: 264px;
+  }
+  header .header__info{
+    max-width: 708px;
+    display: block;
+    padding-left: 60px;
+    .scroll{
+      max-width: Calc(100%);
+      overflow-x: scroll;
+    }
+    .scroll .header__info__left{
+      display: grid;
+      grid-template-columns: 1fr 1fr 1fr 1fr;
+      grid-column-gap: 30px;
+      overflow-x: auto;
+      padding: 0;
+    }
+    .scroll::-webkit-scrollbar{
+      display: none;
+    }
+    .header__info__left::-webkit-scrollbar{
+      height: 4px;
+    }
+    .header__info__left::-webkit-scrollbar-thumb{
+      background-color: #818B99;
+      width: 648px;
+    }
+    .scroll .header__info__left a{
+      padding-right: 0;
+      padding-bottom: 60px;
+      text-align: left;
+    }
+    .customer-link{
+      width: 375px;
+    }
+    .business-link{
+      width: 358px;
+    }
+    & .vertical-line{
+      display: none;
+    }
+    & .header__info__right{
+      padding-left: 0;
+      padding-top: 60px;
+      max-width: 648px;
+    }
+  }
+  header .header__services {
+    max-width: 648px;
+  }
+  header .header__menu{
+    max-width: 648px;
+    grid-template-areas: 'type-1 type-2'
+                         'type-3 type-4'
+                         'type-5 type-6';
+    & .header__menu__row-card p{
+      max-width: 294px;
+    }
+  }
+  .shadows .shadows__first{
+    max-width: 728px;
+    width: 100%;
+  }
+  .shadows .shadows__second{
+    max-width: 688px;
+    width: 100%;
+  }
+  .menu{
+    max-width: 768px;
+    padding-bottom: 0;
+    .hillel, .wannabiz, .tapgerine, .dlook, .orangear, .adtelligent, .clickky, .ecoleasing, .infratek, .citypark, .artprint, .ultimate{
+      display: none;
+    }
+    .hillelTB-HD, .wannabizTB-HD, .tapgerineTB-HD, .dlookTB-HD, .orangearTB-HD, .adtelligentTB-HD, .clickkyTB-HD, .ecoleasingTB-HD,
+    .infratekTB-HD, .cityparkTB-HD, .artprintTB-HD, .ultimateTB-HD{
+      display: block;
+    }
+    & .menu__logos {
+      grid-template-areas: 'header header header'
+                           'hillel wannabiz tapgerine'
+                           'dlook orangear adtelligent'
+                           'clickky ecoleasing infratek'
+                           'citypark artprint ultimate';
+    }
+  }
+  .main__services{
+    max-width: 648px;
+    padding-top: 30px;
+  }
+  .main__container {
+    max-width: 648px;
+    padding-bottom: 60px;
+    .tablet, .gdpr, .people {
+      display: none;
+    }
+    .tabletTB-SD, .gdprTB-SD, .peopleTB-SD {
+      display: block;
+    }
+    & .wrapper {
+      grid-template-areas: 'card-1 card-2'
+                           'card-3 card-3';
+      grid-column-gap: 30px;
+      grid-row-gap: 60px;
+    }
+    .card-1 h4{
+      max-width: 249px;
+    }
+    .card-1 p{
+      max-width: 249px;
+    }
+    .card-1 .horizon-line{
+      max-width: 249px;
+    }
+    .card-2 h4{
+      max-width: 249px;
+    }
+    .card-2 p{
+      max-width: 249px;
+    }
+    .card-2 .horizon-line{
+      max-width: 249px;
+    }
+    .card-3 h4{
+      max-width: 588px;
+    }
+    .card-3 p{
+      max-width: 588px;
+    }
+    .card-3 .horizon-line{
+      max-width: 588px;
+    }
+  }
+  .main__line{
+    max-width: 670px;
+  }
+  .footer{
+    max-width: 648px;
+    & .footer__container{
+      justify-content: center;
+    }
+    & .footer__container__left-contacts p{
+      width: 104px;
+    }
+    & .footer__container__right p{
+      width: 276px;
+    }
+  }
+}
+
+@media (max-width: 767px){
+  .background{
+    background-image: url("../image/Symbol.png");
+    background-size: 523px;
+    & .background__head{
+      max-width: 315px;
+      margin: 0 auto;
+      padding-top: 129px;
+    }
+    & .background__button{
+      padding-top: 159px;
+    }
+  }
+  .background .nav{
+    display: block;
+    background: rgba(245, 245, 250, 0.2);
+  }
+  .background .nav__info__address{
+    justify-content: space-between;
+    align-items: normal;
+    padding: 0 22px;
+    margin: 0 auto;
+  }
+  .background .nav__info__address div{
+    padding-right: 0 !important;
+  }
+  .background .nav__info__address-lng{
+    padding-top: 15px;
+    padding-bottom: 15px;
+  }
+  .background .nav__info__address p{
+    padding-top: 14px;
+  }
+  .background .dot_img{
+    display: none;
+  }
+  .background .facebook_img{
+    display: none;
+  }
+  .background .nav__info__address span{
+    display: none;
+  }
+  .background .nav__info__links div{
+    display: none;
+  }
+  .background .nav__logo{
+    display: none;
+  }
+  .background .logoMOB{
+    display: block;
+  }
+  .background .hamburger-img{
+    display: block;
+  }
+  .adaptive-img{
+    display: flex;
+    padding: 0 22px;
+    margin: 0 auto;
+    align-items: center;
+    justify-content: space-between;
+  }
+  header .header__info{
+    max-width: 345px;
+    display: block;
+    padding-left: 30px;
+    .scroll{
+      max-width: Calc(100%);
+      overflow-x: scroll;
+    }
+    .scroll .header__info__left{
+      display: grid;
+      grid-template-columns: 1fr 1fr 1fr 1fr;
+      grid-column-gap: 30px;
+      overflow-x: auto;
+      padding: 0;
+    }
+    .scroll::-webkit-scrollbar{
+      display: none;
+    }
+    .header__info__left::-webkit-scrollbar{
+      height: 4px;
+    }
+    .header__info__left::-webkit-scrollbar-thumb{
+      background-color: #818B99;
+      width: 315px;
+    }
+    .scroll .header__info__left a{
+      font-weight: 700;
+      font-size: 30px;
+      line-height: 37px;
+      padding-right: 0;
+      padding-bottom: 30px;
+      text-align: left;
+    }
+    .customer-link{
+      width: 296px;
+    }
+    .business-link{
+      width: 283px;
+    }
+    & .vertical-line{
+      display: none;
+    }
+    & .header__info__right{
+      padding-left: 0;
+      padding-top: 30px;
+      max-width: 315px;
+    }
+    & .header__info__right h2{
+      font-size: 20px;
+      line-height: 24px;
+    }
+  }
+  header .header__services {
+    padding-left: 30px;
+    padding-right: 30px;
+    & h2{
+      font-size: 30px;
+    }
+  }
+  header .header__menu{
+    margin: 0 auto;
+    padding-right: 30px;
+    padding-left: 30px;
+    padding-top: 30px;
+    grid-template-areas: 'type-1'
+                         'type-2'
+                         'type-3'
+                         'type-4'
+                         'type-5'
+                         'type-6';
+    grid-row-gap: 30px;
+    justify-items: normal;
+
+  }
+  .shadows .shadows__first{
+    margin: 0 20px;
+  }
+  .shadows .shadows__second{
+    margin: 0 40px;
+  }
+  .menu{
+    max-width: 375px;
+    padding-bottom: 0;
+    .hillel, .wannabiz, .tapgerine, .dlook, .orangear, .adtelligent, .clickky, .ecoleasing, .infratek, .citypark, .artprint, .ultimate{
+      display: none;
+    }
+    .hillelMOB, .wannabizMOB, .tapgerineMOB, .dlookMOB, .orangearMOB, .adtelligentMOB{
+      display: block;
+    }
+    & .menu__logos {
+      grid-template-areas: 'header'
+                           'hillel'
+                           'wannabiz'
+                           'tapgerine'
+                           'dlook'
+                           'orangear'
+                           'adtelligent';
+    }
+  }
+  .main__services{
+    padding-left: 30px;
+    padding-right: 30px;
+    & h2{
+      font-size: 30px;
+      line-height: 37px;
+    }
+  }
+  .main__container{
+    padding-right: 30px;
+    padding-left: 30px;
+    .tablet, .gdpr, .people {
+      display: none;
+    }
+    .tabletMOB, .gdprMOB, .peopleMOB {
+      display: block;
+    }
+    & .wrapper {
+      grid-template-areas: 'card-1'
+                           'card-2'
+                           'card-3';
+      grid-row-gap: 60px;
+      justify-items: center;
+    }
+    & .main__container__card h4{
+      max-width: 255px;
+    }
+    & .main__container__card p{
+      max-width: 255px;
+    }
+    & .main__container__card .horizon-line{
+      max-width: 255px;
+    }
+  }
+  .main__line{
+    margin-left: 30px;
+    margin-right: 30px;
+  }
+  .footer{
+    max-width: 315px;
+    text-align: center;
+    & .footer__container{
+      display: block;
+    }
+    & .footer__container__left-address{
+      display: block;
+    }
+    & .footer__container__left-contacts{
+      display: block;
+    }
+    & .dot2_img{
+      display: none;
+    }
+    & .footer__container__left-contacts p{
+      text-align: center;
+      padding-top: 10px;
+      padding-bottom: 10px;
+    }
+    & .footer__container__left-address p{
+      padding-bottom: 10px;
+    }
+    & .footer__container__right p{
+      text-align: center;
+      padding-top: 30px;
+    }
+  }
+}
+
+@media (min-width: 530px) and (max-width: 767px){
+  header .header__info{
+    max-width: 500px;
+    display: block;
+    padding-left: 30px;
+  }
+  header .header__info .header__info__right{
+    max-width: 450px;
+  }
+  .menu{
+    max-width: fit-content;
+    padding-bottom: 0;
+    .hillel, .wannabiz, .tapgerine, .dlook, .orangear, .adtelligent{
+      display: block;
+    }
+    .hillelMOB, .wannabizMOB, .tapgerineMOB, .dlookMOB, .orangearMOB, .adtelligentMOB{
+      display: none;
+    }
+    .hillel{
+      border-radius: 0;
+    }
+    .dlook{
+      border-radius: 0;
+    }
+    & .menu__logos{
+      justify-items: center;
+    }
+    & .menu__logos img{
+      width: 530px;
+    }
+  }
+  .main__container{
+    & .tabletSD, .gdprSD, .peopleSD {
+      display: block;
+      width: 450px;
+    }
+    & .tabletMOB, .gdprMOB, .peopleMOB {
+      display: none;
+    }
+    & .main__container__card p{
+      max-width: 390px;
+    }
+    & .main__container__card .horizon-line{
+      max-width: 390px;
+    }
+  }
+}
+
+@media (min-width: 660px) and (max-width: 767px){
+  .main__container{
+    & .tabletSD, .gdprSD, .peopleSD {
+      display: block;
+      width: 550px;
+    }
+    & .tabletMOB, .gdprMOB, .peopleMOB {
+      display: none;
+    }
+    & .main__container__card p{
+      max-width: 490px;
+    }
+    & .main__container__card .horizon-line{
+      max-width: 490px;
+    }
+  }
+}

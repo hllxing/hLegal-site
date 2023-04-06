@@ -1,0 +1,1226 @@
+header {
+  background: linear-gradient(228.57deg, #323264 11.93%, #323264 57.17%, #643E72 87.46%);
+  border-radius: 0 0 12px 12px;
+}
+header .background__info {
+  padding-top: 60px;
+  margin: 0 auto;
+  max-width: 1360px;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+header .header__info {
+  padding-top: 60px;
+  margin: 0 auto;
+  max-width: 1360px;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+header .header__info__left {
+  padding-top: 15px;
+  display: flex;
+  flex-direction: column;
+}
+header .header__info__left a {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 38px;
+  line-height: 46px;
+  text-align: right;
+  color: #B3B3BA;
+  text-decoration: none;
+  padding-right: 60px;
+}
+header .header__info__left a:not(:last-child) {
+  padding-bottom: 30px;
+}
+header .header__info__left a:hover {
+  color: #F0145A;
+}
+header .vertical-line {
+  width: 4px;
+  height: 303px;
+  background: rgba(255, 255, 255, 0.3);
+}
+header .header__info__right {
+  padding-top: 73px;
+  padding-left: 60px;
+  display: flex;
+  flex-direction: column;
+}
+header .header__info__right h2 {
+  margin: 0;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 37px;
+  color: #FFFFFF;
+}
+header .header__info__right p {
+  max-width: 861px;
+  margin: 0;
+  padding-top: 30px;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 19px;
+  line-height: 30px;
+  color: #FFFFFF;
+}
+header .header__services {
+  margin: 0 auto;
+  max-width: 1600px;
+  padding-top: 75px;
+}
+header .header__services a {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 17px;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  color: #24A3FF;
+  text-decoration: none;
+}
+header .header__services a:hover {
+  color: #F0145A;
+}
+header .header__services h2 {
+  margin: 0;
+  padding-top: 10px;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 38px;
+  line-height: 46px;
+  background: linear-gradient(90.13deg, #F0145A 0.84%, #EF8080 99.96%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+header .header__menu {
+  margin: 0 auto;
+  max-width: 1600px;
+  padding-bottom: 60px;
+  padding-top: 60px;
+  display: grid;
+  grid-template-areas: "type-1 type-2 type-3" "type-4 type-5 type-6";
+  grid-row-gap: 60px;
+  grid-column-gap: 60px;
+}
+header .header__menu__row-card {
+  display: flex;
+  flex-direction: column;
+}
+header .type-1 {
+  grid-area: type-1;
+}
+header .type-2 {
+  grid-area: type-2;
+}
+header .type-3 {
+  grid-area: type-3;
+}
+header .type-4 {
+  grid-area: type-4;
+}
+header .type-5 {
+  grid-area: type-5;
+}
+header .type-6 {
+  grid-area: type-6;
+}
+header .header__menu__row-card h3 {
+  margin: 0;
+  max-width: 493px;
+  padding: 30px 0 15px 0;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 22px;
+  line-height: 27px;
+  color: #24A3FF;
+}
+header .header__menu__row-card p {
+  margin: 0;
+  max-width: 493px;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  color: #FFFFFF;
+}
+
+.background {
+  background-image: url("../image/Symbol.png");
+  width: 100%;
+  height: 100%;
+  background-position: top;
+  background-repeat: no-repeat;
+}
+.background .nav {
+  max-width: 1600px;
+  width: 100%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.background .nav__logo {
+  padding-top: 50px;
+}
+.background .logo-tabletSD {
+  display: none;
+}
+.background .hamburger-img {
+  display: none;
+}
+.background .logoMOB {
+  display: none;
+}
+.background .nav__info__address {
+  display: flex;
+  align-items: center;
+}
+.background .nav__info__address div:not(:last-child) {
+  padding-right: 6px;
+}
+.background .nav__info__address-lng {
+  padding-top: 54px;
+}
+.background .nav__info__address a {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 12px;
+  line-height: 15px;
+  text-align: center;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  text-decoration: none;
+  color: #fff;
+}
+.background .nav__info__address a:not(:last-child) {
+  margin-right: 14px;
+}
+.background .nav__info__address a:hover, .background .nav__info__address a:focus {
+  padding: 5px 7px;
+  background: #F0145A;
+  border-radius: 8px;
+  gap: 6px;
+}
+.background .dot_img {
+  padding-top: 53px;
+}
+.background .nav__info__address span {
+  display: block;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 20px;
+  color: #fff;
+  padding-top: 55px;
+}
+.background .nav__info__address p {
+  margin: 0;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 20px;
+  color: #fff;
+  padding-top: 55px;
+}
+.background .facebook_img {
+  padding-top: 50px;
+}
+.background .nav__info__links div {
+  text-align: right;
+  padding-top: 19px;
+}
+.background .nav__info__links a {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 20px;
+  color: #FFFFFF;
+  text-decoration: none;
+}
+.background .nav__info__links a:not(:last-child) {
+  margin-right: 15px;
+}
+.background .background__head {
+  padding-top: 361px;
+  display: flex;
+  justify-content: center;
+}
+.background .background__head h1 {
+  margin: 0;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 38px;
+  line-height: 46px;
+  color: #FFFFFF;
+  text-align: center;
+}
+.background .background__button {
+  padding-top: 405px;
+  padding-bottom: 30px;
+  display: flex;
+  justify-content: center;
+}
+.background .background__button svg:hover {
+  fill: #F0145A;
+}
+
+.shadows {
+  display: flex;
+  flex-direction: column;
+}
+.shadows .shadows__first {
+  margin: 0 auto;
+  max-width: 1880px;
+  height: 10px;
+  background: #CACADB;
+  border-radius: 0 0 12px 12px;
+}
+.shadows .shadows__second {
+  margin: 0 auto;
+  max-width: 1840px;
+  height: 10px;
+  background: #E7E7F2;
+  border-radius: 0 0 12px 12px;
+}
+
+.menu {
+  margin: 0 auto;
+  max-width: 1720px;
+  width: 100%;
+  padding-top: 60px;
+  padding-bottom: 60px;
+}
+.menu .menu__header {
+  margin: 0;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 17px;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  color: #323264;
+  text-align: center;
+  padding-bottom: 30px;
+  grid-area: header;
+}
+.menu .hillel {
+  grid-area: hillel;
+  border-radius: 12px 0 0 0;
+}
+.menu .wannabiz {
+  grid-area: wannabiz;
+}
+.menu .tapgerine {
+  grid-area: tapgerine;
+}
+.menu .dlook {
+  grid-area: dlook;
+  border-radius: 0 12px 0 0;
+}
+.menu .orangear {
+  grid-area: orangear;
+}
+.menu .adtelligent {
+  grid-area: adtelligent;
+}
+.menu .clickky {
+  grid-area: clickky;
+}
+.menu .ecoleasing {
+  grid-area: ecoleasing;
+}
+.menu .infratek {
+  grid-area: infratek;
+  border-radius: 0 0 0 12px;
+}
+.menu .citypark {
+  grid-area: citypark;
+}
+.menu .artprint {
+  grid-area: artprint;
+}
+.menu .ultimate {
+  grid-area: ultimate;
+  border-radius: 0 0 12px 0;
+}
+.menu .hillelSD, .menu .wannabizSD, .menu .tapgerineSD, .menu .dlookSD, .menu .orangearSD, .menu .adtelligentSD, .menu .clickkySD, .menu .ecoleasingSD, .menu .infratekSD, .menu .cityparkSD, .menu .artprintSD, .menu .ultimateSD {
+  display: none;
+}
+.menu .hillelTB-HD, .menu .wannabizTB-HD, .menu .tapgerineTB-HD, .menu .dlookTB-HD, .menu .orangearTB-HD, .menu .adtelligentTB-HD, .menu .clickkyTB-HD, .menu .ecoleasingTB-HD,
+.menu .infratekTB-HD, .menu .cityparkTB-HD, .menu .artprintTB-HD, .menu .ultimateTB-HD {
+  display: none;
+}
+.menu .hillelMOB, .menu .wannabizMOB, .menu .tapgerineMOB, .menu .dlookMOB, .menu .orangearMOB, .menu .adtelligentMOB {
+  display: none;
+}
+.menu .menu__logos {
+  display: grid;
+  grid-template-areas: "header header header header" "hillel wannabiz tapgerine dlook" "orangear adtelligent clickky ecoleasing" "infratek citypark artprint ultimate";
+}
+
+.background-main__services {
+  background: #F5F5FA;
+}
+
+.main__services {
+  margin: 0 auto;
+  max-width: 1600px;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+.main__services a {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 17px;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  color: #24A3FF;
+  text-decoration: none;
+}
+.main__services a:hover {
+  color: #F0145A;
+}
+.main__services h2 {
+  margin: 0;
+  padding-top: 10px;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 38px;
+  line-height: 46px;
+  background: linear-gradient(90.13deg, #F0145A 0.84%, #EF8080 99.96%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.background-main__container {
+  background: #F5F5FA;
+}
+
+.main__container {
+  margin: 0 auto;
+  max-width: 1600px;
+  padding-bottom: 30px;
+}
+.main__container .wrapper {
+  display: grid;
+  grid-template-areas: "card-1 card-2 card-3";
+}
+.main__container .main__container__card {
+  display: flex;
+  flex-direction: column;
+}
+.main__container .card-1 {
+  grid-area: card-1;
+}
+.main__container .card-2 {
+  grid-area: card-2;
+}
+.main__container .card-3 {
+  grid-area: card-3;
+}
+.main__container .tabletSD, .main__container .gdprSD, .main__container .peopleSD {
+  display: none;
+}
+.main__container .tabletTB-HD, .main__container .gdprTB-HD, .main__container .peopleTB-HD {
+  display: none;
+}
+.main__container .tabletTB-SD, .main__container .gdprTB-SD, .main__container .peopleTB-SD {
+  display: none;
+}
+.main__container .tabletMOB, .main__container .gdprMOB, .main__container .peopleMOB {
+  display: none;
+}
+.main__container .main__container__card h4 {
+  margin: 0;
+  max-width: 453px;
+  padding: 30px 0 15px 30px;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 20px;
+  color: #24A3FF;
+}
+.main__container .main__container__card span {
+  padding-left: 30px;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 12px;
+  line-height: 15px;
+  color: #B3B3BA;
+}
+.main__container .main__container__card .horizon-line {
+  margin: 15px 0 15px 30px;
+  max-width: 453px;
+  height: 4px;
+  background: #E6E6F0;
+}
+.main__container .main__container__card p {
+  margin: 0;
+  max-width: 453px;
+  padding-left: 30px;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 22px;
+  color: #000000;
+}
+
+.main__line {
+  margin: 0 auto;
+  max-width: 1600px;
+  height: 2px;
+  background: #E6E6F0;
+}
+
+.background-footer {
+  background: #F5F5FA;
+}
+
+.footer {
+  margin: 0 auto;
+  max-width: 1600px;
+  width: 100%;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+.footer .footer__container {
+  display: flex;
+  justify-content: space-between;
+}
+.footer .footer__container__left-address {
+  display: flex;
+  align-items: center;
+  padding-bottom: 20px;
+}
+.footer .footer__container__left-address p {
+  margin: 0;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 20px;
+  color: #323264;
+}
+.footer .footer__container__left-address > div {
+  padding: 0 10px 0 10px;
+}
+.footer .footer__container__left-address a {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 12px;
+  line-height: 15px;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  text-decoration: none;
+  color: #24A3FF;
+  padding-bottom: 1px;
+}
+.footer .footer__container__left-address a:hover {
+  color: #F0145A;
+}
+.footer .footer__container__left-contacts {
+  display: flex;
+  align-items: center;
+}
+.footer .dot2_img {
+  padding: 0 10px 0 10px;
+}
+.footer .footer__container__left-contacts p {
+  margin: 0;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 20px;
+  text-align: right;
+  color: #46466E;
+}
+.footer .footer__container__left-contacts a {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 20px;
+  color: #24A3FF;
+  text-decoration: none;
+}
+.footer .footer__container__left-contacts a:hover {
+  color: #F0145A;
+}
+.footer .footer__container__right p {
+  margin: 0;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 20px;
+  text-align: right;
+  color: #B3B3BA;
+}
+
+@media (min-width: 1601px) and (max-width: 1780px) {
+  .background .nav {
+    max-width: 1500px;
+  }
+  header .header__services {
+    max-width: 1500px;
+  }
+  header .header__menu {
+    max-width: 1500px;
+  }
+  header .header__menu .header__menu__row-card p {
+    max-width: 470px;
+  }
+  header .header__menu .header__menu__row-card h3 {
+    max-width: 470px;
+  }
+  .shadows .shadows__first {
+    max-width: 1500px;
+    width: 100%;
+  }
+  .shadows .shadows__second {
+    max-width: 1460px;
+    width: 100%;
+  }
+  .menu {
+    max-width: 1580px;
+  }
+  .menu img {
+    max-width: 395px;
+    height: 120px;
+  }
+  .main__services {
+    max-width: 1500px;
+  }
+  .main__container {
+    max-width: 1500px;
+  }
+  .main__container div img {
+    max-width: 481px;
+  }
+  .main__container .tablet, .main__container .gdpr {
+    padding-right: 28px;
+  }
+  .main__container .main__container__card h4 {
+    max-width: 420px;
+  }
+  .main__container .main__container__card .horizon-line {
+    max-width: 420px;
+  }
+  .main__container .main__container__card p {
+    max-width: 420px;
+  }
+  .main__line {
+    max-width: 1500px;
+  }
+  .footer {
+    max-width: 1500px;
+  }
+}
+@media (min-width: 1440px) and (max-width: 1600px) {
+  .background {
+    background-image: url("../image/SymbolSD.png");
+  }
+  .background .nav {
+    max-width: 1320px;
+  }
+  .background .background__head {
+    padding-top: 266px;
+  }
+  .background .background__button {
+    padding-top: 305px;
+  }
+  header .header__info {
+    max-width: 1080px;
+  }
+  header .header__info .header__info__right {
+    padding-top: 43px;
+  }
+  header .header__info .header__info__right p {
+    max-width: 581px;
+  }
+  header .header__services {
+    max-width: 1320px;
+  }
+  header .header__menu {
+    max-width: 1320px;
+  }
+  header .header__menu .header__menu__row-card p {
+    max-width: 400px;
+  }
+  .shadows .shadows__first {
+    max-width: 1400px;
+    width: 100%;
+  }
+  .shadows .shadows__second {
+    max-width: 1360px;
+    width: 100%;
+  }
+  .main__services {
+    max-width: 1320px;
+    padding-top: 30px;
+  }
+  .menu {
+    max-width: 1440px;
+    padding-bottom: 0;
+  }
+  .menu .hillelSD, .menu .wannabizSD, .menu .tapgerineSD, .menu .dlookSD, .menu .orangearSD, .menu .adtelligentSD, .menu .clickkySD, .menu .ecoleasingSD, .menu .infratekSD, .menu .cityparkSD, .menu .artprintSD, .menu .ultimateSD {
+    display: block;
+  }
+  .menu .hillel, .menu .wannabiz, .menu .tapgerine, .menu .dlook, .menu .orangear, .menu .adtelligent, .menu .clickky, .menu .ecoleasing, .menu .infratek, .menu .citypark, .menu .artprint, .menu .ultimate {
+    display: none;
+  }
+  .main__container {
+    max-width: 1320px;
+  }
+  .main__container .tabletSD, .main__container .gdprSD, .main__container .peopleSD {
+    display: block;
+  }
+  .main__container .tablet, .main__container .gdpr, .main__container .people {
+    display: none;
+  }
+  .main__container .main__container__card h4 {
+    max-width: 360px;
+  }
+  .main__container .main__container__card .horizon-line {
+    max-width: 360px;
+  }
+  .main__container .main__container__card p {
+    max-width: 360px;
+  }
+  .main__line {
+    max-width: 1320px;
+  }
+  .footer {
+    max-width: 1320px;
+  }
+}
+@media (min-width: 1024px) and (max-width: 1439px) {
+  .background {
+    background-image: url("../image/SymbolTB-HD.png");
+  }
+  .background .background__head {
+    padding-top: 250px;
+  }
+  .background .nav {
+    max-width: 904px;
+  }
+  .background .background__button {
+    padding-top: 289px;
+  }
+  header .header__info {
+    max-width: 904px;
+  }
+  header .header__info__right {
+    max-width: 405px;
+    padding-top: 10px;
+  }
+  header .header__services {
+    max-width: 904px;
+  }
+  header .header__menu {
+    max-width: 904px;
+  }
+  header .header__menu .header__menu__row-card p {
+    max-width: 261px;
+  }
+  .shadows .shadows__first {
+    max-width: 984px;
+    width: 100%;
+  }
+  .shadows .shadows__second {
+    max-width: 944px;
+    width: 100%;
+  }
+  .menu {
+    max-width: 1024px;
+    padding-bottom: 0;
+  }
+  .menu .hillel, .menu .wannabiz, .menu .tapgerine, .menu .dlook, .menu .orangear, .menu .adtelligent, .menu .clickky, .menu .ecoleasing, .menu .infratek, .menu .citypark, .menu .artprint, .menu .ultimate {
+    display: none;
+  }
+  .menu .hillelTB-HD, .menu .wannabizTB-HD, .menu .tapgerineTB-HD, .menu .dlookTB-HD, .menu .orangearTB-HD, .menu .adtelligentTB-HD, .menu .clickkyTB-HD, .menu .ecoleasingTB-HD,
+  .menu .infratekTB-HD, .menu .cityparkTB-HD, .menu .artprintTB-HD, .menu .ultimateTB-HD {
+    display: block;
+  }
+  .main__services {
+    max-width: 904px;
+    padding-top: 30px;
+  }
+  .main__container {
+    max-width: 904px;
+  }
+  .main__container .tablet, .main__container .gdpr, .main__container .people {
+    display: none;
+  }
+  .main__container .tabletTB-HD, .main__container .gdprTB-HD, .main__container .peopleTB-HD {
+    display: block;
+  }
+  .main__container .tabletTB-HD, .main__container .gdprTB-HD {
+    padding-right: 30px;
+  }
+  .main__container .main__container__card h4 {
+    max-width: 221px;
+  }
+  .main__container .main__container__card .horizon-line {
+    max-width: 221px;
+  }
+  .main__container .main__container__card p {
+    max-width: 221px;
+  }
+  .main__line {
+    max-width: 904px;
+  }
+  .footer {
+    max-width: 904px;
+  }
+}
+@media (min-width: 768px) and (max-width: 1023px) {
+  .background {
+    background-size: 893px;
+  }
+  .background .background__head {
+    padding-top: 274px !important;
+  }
+  .background .nav {
+    max-width: 648px;
+  }
+  .background .background__button {
+    padding-top: 417px;
+  }
+  .nav__logo {
+    display: none;
+  }
+  .nav__info .logo-tabletSD {
+    display: block;
+    padding-top: 35px;
+  }
+  .nav__info .nav__info__links div {
+    padding-top: 30px;
+    text-align: left;
+  }
+  .background .background__head {
+    padding-top: 264px;
+  }
+  header .header__info {
+    max-width: 708px;
+    display: block;
+    padding-left: 60px;
+  }
+  header .header__info .scroll {
+    max-width: 100%;
+    overflow-x: scroll;
+  }
+  header .header__info .scroll .header__info__left {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-column-gap: 30px;
+    overflow-x: auto;
+    padding: 0;
+  }
+  header .header__info .scroll::-webkit-scrollbar {
+    display: none;
+  }
+  header .header__info .header__info__left::-webkit-scrollbar {
+    height: 4px;
+  }
+  header .header__info .header__info__left::-webkit-scrollbar-thumb {
+    background-color: #818B99;
+    width: 648px;
+  }
+  header .header__info .scroll .header__info__left a {
+    padding-right: 0;
+    padding-bottom: 60px;
+    text-align: left;
+  }
+  header .header__info .customer-link {
+    width: 375px;
+  }
+  header .header__info .business-link {
+    width: 358px;
+  }
+  header .header__info .vertical-line {
+    display: none;
+  }
+  header .header__info .header__info__right {
+    padding-left: 0;
+    padding-top: 60px;
+    max-width: 648px;
+  }
+  header .header__services {
+    max-width: 648px;
+  }
+  header .header__menu {
+    max-width: 648px;
+    grid-template-areas: "type-1 type-2" "type-3 type-4" "type-5 type-6";
+  }
+  header .header__menu .header__menu__row-card p {
+    max-width: 294px;
+  }
+  .shadows .shadows__first {
+    max-width: 728px;
+    width: 100%;
+  }
+  .shadows .shadows__second {
+    max-width: 688px;
+    width: 100%;
+  }
+  .menu {
+    max-width: 768px;
+    padding-bottom: 0;
+  }
+  .menu .hillel, .menu .wannabiz, .menu .tapgerine, .menu .dlook, .menu .orangear, .menu .adtelligent, .menu .clickky, .menu .ecoleasing, .menu .infratek, .menu .citypark, .menu .artprint, .menu .ultimate {
+    display: none;
+  }
+  .menu .hillelTB-HD, .menu .wannabizTB-HD, .menu .tapgerineTB-HD, .menu .dlookTB-HD, .menu .orangearTB-HD, .menu .adtelligentTB-HD, .menu .clickkyTB-HD, .menu .ecoleasingTB-HD,
+  .menu .infratekTB-HD, .menu .cityparkTB-HD, .menu .artprintTB-HD, .menu .ultimateTB-HD {
+    display: block;
+  }
+  .menu .menu__logos {
+    grid-template-areas: "header header header" "hillel wannabiz tapgerine" "dlook orangear adtelligent" "clickky ecoleasing infratek" "citypark artprint ultimate";
+  }
+  .main__services {
+    max-width: 648px;
+    padding-top: 30px;
+  }
+  .main__container {
+    max-width: 648px;
+    padding-bottom: 60px;
+  }
+  .main__container .tablet, .main__container .gdpr, .main__container .people {
+    display: none;
+  }
+  .main__container .tabletTB-SD, .main__container .gdprTB-SD, .main__container .peopleTB-SD {
+    display: block;
+  }
+  .main__container .wrapper {
+    grid-template-areas: "card-1 card-2" "card-3 card-3";
+    grid-column-gap: 30px;
+    grid-row-gap: 60px;
+  }
+  .main__container .card-1 h4 {
+    max-width: 249px;
+  }
+  .main__container .card-1 p {
+    max-width: 249px;
+  }
+  .main__container .card-1 .horizon-line {
+    max-width: 249px;
+  }
+  .main__container .card-2 h4 {
+    max-width: 249px;
+  }
+  .main__container .card-2 p {
+    max-width: 249px;
+  }
+  .main__container .card-2 .horizon-line {
+    max-width: 249px;
+  }
+  .main__container .card-3 h4 {
+    max-width: 588px;
+  }
+  .main__container .card-3 p {
+    max-width: 588px;
+  }
+  .main__container .card-3 .horizon-line {
+    max-width: 588px;
+  }
+  .main__line {
+    max-width: 670px;
+  }
+  .footer {
+    max-width: 648px;
+  }
+  .footer .footer__container {
+    justify-content: center;
+  }
+  .footer .footer__container__left-contacts p {
+    width: 104px;
+  }
+  .footer .footer__container__right p {
+    width: 276px;
+  }
+}
+@media (max-width: 767px) {
+  .background {
+    background-image: url("../image/Symbol.png");
+    background-size: 523px;
+  }
+  .background .background__head {
+    max-width: 315px;
+    margin: 0 auto;
+    padding-top: 129px;
+  }
+  .background .background__button {
+    padding-top: 159px;
+  }
+  .background .nav {
+    display: block;
+    background: rgba(245, 245, 250, 0.2);
+  }
+  .background .nav__info__address {
+    justify-content: space-between;
+    align-items: normal;
+    padding: 0 22px;
+    margin: 0 auto;
+  }
+  .background .nav__info__address div {
+    padding-right: 0 !important;
+  }
+  .background .nav__info__address-lng {
+    padding-top: 15px;
+    padding-bottom: 15px;
+  }
+  .background .nav__info__address p {
+    padding-top: 14px;
+  }
+  .background .dot_img {
+    display: none;
+  }
+  .background .facebook_img {
+    display: none;
+  }
+  .background .nav__info__address span {
+    display: none;
+  }
+  .background .nav__info__links div {
+    display: none;
+  }
+  .background .nav__logo {
+    display: none;
+  }
+  .background .logoMOB {
+    display: block;
+  }
+  .background .hamburger-img {
+    display: block;
+  }
+  .adaptive-img {
+    display: flex;
+    padding: 0 22px;
+    margin: 0 auto;
+    align-items: center;
+    justify-content: space-between;
+  }
+  header .header__info {
+    max-width: 345px;
+    display: block;
+    padding-left: 30px;
+  }
+  header .header__info .scroll {
+    max-width: 100%;
+    overflow-x: scroll;
+  }
+  header .header__info .scroll .header__info__left {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-column-gap: 30px;
+    overflow-x: auto;
+    padding: 0;
+  }
+  header .header__info .scroll::-webkit-scrollbar {
+    display: none;
+  }
+  header .header__info .header__info__left::-webkit-scrollbar {
+    height: 4px;
+  }
+  header .header__info .header__info__left::-webkit-scrollbar-thumb {
+    background-color: #818B99;
+    width: 315px;
+  }
+  header .header__info .scroll .header__info__left a {
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 37px;
+    padding-right: 0;
+    padding-bottom: 30px;
+    text-align: left;
+  }
+  header .header__info .customer-link {
+    width: 296px;
+  }
+  header .header__info .business-link {
+    width: 283px;
+  }
+  header .header__info .vertical-line {
+    display: none;
+  }
+  header .header__info .header__info__right {
+    padding-left: 0;
+    padding-top: 30px;
+    max-width: 315px;
+  }
+  header .header__info .header__info__right h2 {
+    font-size: 20px;
+    line-height: 24px;
+  }
+  header .header__services {
+    padding-left: 30px;
+    padding-right: 30px;
+  }
+  header .header__services h2 {
+    font-size: 30px;
+  }
+  header .header__menu {
+    margin: 0 auto;
+    padding-right: 30px;
+    padding-left: 30px;
+    padding-top: 30px;
+    grid-template-areas: "type-1" "type-2" "type-3" "type-4" "type-5" "type-6";
+    grid-row-gap: 30px;
+    justify-items: normal;
+  }
+  .shadows .shadows__first {
+    margin: 0 20px;
+  }
+  .shadows .shadows__second {
+    margin: 0 40px;
+  }
+  .menu {
+    max-width: 375px;
+    padding-bottom: 0;
+  }
+  .menu .hillel, .menu .wannabiz, .menu .tapgerine, .menu .dlook, .menu .orangear, .menu .adtelligent, .menu .clickky, .menu .ecoleasing, .menu .infratek, .menu .citypark, .menu .artprint, .menu .ultimate {
+    display: none;
+  }
+  .menu .hillelMOB, .menu .wannabizMOB, .menu .tapgerineMOB, .menu .dlookMOB, .menu .orangearMOB, .menu .adtelligentMOB {
+    display: block;
+  }
+  .menu .menu__logos {
+    grid-template-areas: "header" "hillel" "wannabiz" "tapgerine" "dlook" "orangear" "adtelligent";
+  }
+  .main__services {
+    padding-left: 30px;
+    padding-right: 30px;
+  }
+  .main__services h2 {
+    font-size: 30px;
+    line-height: 37px;
+  }
+  .main__container {
+    padding-right: 30px;
+    padding-left: 30px;
+  }
+  .main__container .tablet, .main__container .gdpr, .main__container .people {
+    display: none;
+  }
+  .main__container .tabletMOB, .main__container .gdprMOB, .main__container .peopleMOB {
+    display: block;
+  }
+  .main__container .wrapper {
+    grid-template-areas: "card-1" "card-2" "card-3";
+    grid-row-gap: 60px;
+    justify-items: center;
+  }
+  .main__container .main__container__card h4 {
+    max-width: 255px;
+  }
+  .main__container .main__container__card p {
+    max-width: 255px;
+  }
+  .main__container .main__container__card .horizon-line {
+    max-width: 255px;
+  }
+  .main__line {
+    margin-left: 30px;
+    margin-right: 30px;
+  }
+  .footer {
+    max-width: 315px;
+    text-align: center;
+  }
+  .footer .footer__container {
+    display: block;
+  }
+  .footer .footer__container__left-address {
+    display: block;
+  }
+  .footer .footer__container__left-contacts {
+    display: block;
+  }
+  .footer .dot2_img {
+    display: none;
+  }
+  .footer .footer__container__left-contacts p {
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
+  .footer .footer__container__left-address p {
+    padding-bottom: 10px;
+  }
+  .footer .footer__container__right p {
+    text-align: center;
+    padding-top: 30px;
+  }
+}
+@media (min-width: 530px) and (max-width: 767px) {
+  header .header__info {
+    max-width: 500px;
+    display: block;
+    padding-left: 30px;
+  }
+  header .header__info .header__info__right {
+    max-width: 450px;
+  }
+  .menu {
+    max-width: fit-content;
+    padding-bottom: 0;
+  }
+  .menu .hillel, .menu .wannabiz, .menu .tapgerine, .menu .dlook, .menu .orangear, .menu .adtelligent {
+    display: block;
+  }
+  .menu .hillelMOB, .menu .wannabizMOB, .menu .tapgerineMOB, .menu .dlookMOB, .menu .orangearMOB, .menu .adtelligentMOB {
+    display: none;
+  }
+  .menu .hillel {
+    border-radius: 0;
+  }
+  .menu .dlook {
+    border-radius: 0;
+  }
+  .menu .menu__logos {
+    justify-items: center;
+  }
+  .menu .menu__logos img {
+    width: 530px;
+  }
+  .main__container .tabletSD, .main__container .gdprSD, .main__container .peopleSD {
+    display: block;
+    width: 450px;
+  }
+  .main__container .tabletMOB, .main__container .gdprMOB, .main__container .peopleMOB {
+    display: none;
+  }
+  .main__container .main__container__card p {
+    max-width: 390px;
+  }
+  .main__container .main__container__card .horizon-line {
+    max-width: 390px;
+  }
+}
+@media (min-width: 660px) and (max-width: 767px) {
+  .main__container .tabletSD, .main__container .gdprSD, .main__container .peopleSD {
+    display: block;
+    width: 550px;
+  }
+  .main__container .tabletMOB, .main__container .gdprMOB, .main__container .peopleMOB {
+    display: none;
+  }
+  .main__container .main__container__card p {
+    max-width: 490px;
+  }
+  .main__container .main__container__card .horizon-line {
+    max-width: 490px;
+  }
+}
+body {
+  font-size: 0;
+  margin: 0;
+  padding: 0;
+  font-family: "Montserrat", sans-serif;
+}
+
+/*# sourceMappingURL=main.css.map */
